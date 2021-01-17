@@ -5,7 +5,7 @@ fork the project ounder your own then clone it.
 ```
 python3.9 -m venv .venv
 
-.venv/bin/activate
+. .venv/bin/activate
 
 pip install -r requirements.txt
 
@@ -31,6 +31,6 @@ python detect.py --source data/images --weights yolov5s.pt --conf 0.25
 download some mp4 from youtube and put in data/viedo
 
 ```
-python detect.py --source data/video/jetfighter.mp4
+python detect.py --source data/video/jetfighter.mp4 --weights yolov5s.pt --conf 0.25
 
 ```
